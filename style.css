@@ -78,3 +78,12 @@ tr:hover{
 .result h3:last-child{
     color: green;
 }
+
+.profile-pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #007bff;
+}
