@@ -154,3 +154,9 @@ tr:hover{
 #calculate-btn:hover{
     background: #0056b3;
 }
+
+#percentage,
+#grade{
+    margin-top: 10px;
+    font-weight: bold;
+}
