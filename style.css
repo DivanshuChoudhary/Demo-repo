@@ -19,7 +19,13 @@ body{
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
 
 .student-info{
@@ -82,8 +88,13 @@ tr:hover{
 .profile-pic{
     width: 120px;
     height: 120px;
-    border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 15px;
+    border-radius: 12px;
     border: 3px solid #007bff;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover{
+    transform: scale(1.05);
 }
