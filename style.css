@@ -61,3 +61,20 @@ tr:hover{
     background-color: #f1f1f1;
     cursor: pointer;
 }
+
+.result{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result h3{
+    margin: 10px 0;
+}
+
+.result h3:first-child{
+    color: #007bff;
+}
+
+.result h3:last-child{
+    color: green;
+}
