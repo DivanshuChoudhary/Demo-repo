@@ -38,7 +38,7 @@ button.addEventListener("click", () => {
     else if (percentage >= 60) {
         grade = "C";
     }
-    else if (percentage >= 40) {
+    else if (percentage >= 33) {
         grade = "D";
     }
     else {
@@ -51,3 +51,14 @@ button.addEventListener("click", () => {
     document.getElementById("grade").textContent =
         `Grade: ${grade}`;
 });
+
+let status = "";
+
+if (percentage >= 33){
+    status = "Pass";
+} else {
+    status = "Fail";
+}
+
+document.getElementById("status").textContent =
+    `Status: ${status}`;
