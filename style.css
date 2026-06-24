@@ -35,3 +35,20 @@ body{
     color: #666;
     margin: 5px 0;
 }
+
+table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #007bff;
+    color: white;
+}
