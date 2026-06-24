@@ -21,3 +21,17 @@ body{
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
+
+.student-info{
+    margin-top: 20px;
+}
+
+.student-info h2{
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.student-info p{
+    color: #666;
+    margin: 5px 0;
+}
