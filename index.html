@@ -27,29 +27,38 @@
 
     <tr>
         <td>Mathematics</td>
-        <td class="mark">85</td>
+        <td><input type="number" class="mark-input" min="0" max="100"></td>
     </tr>
 
     <tr>
         <td>Physics</td>
-        <td class="mark">78</td>
+        <td><input type="number" class="mark-input" min="0" max="100"></td>
     </tr>
 
     <tr>
         <td>Chemistry</td>
-        <td class="mark">82</td>
+        <td><input type="number" class="mark-input" min="0" max="100"></td>
     </tr>
 
     <tr>
         <td>English</td>
-        <td class="mark">90</td>
+        <td><input type="number" class="mark-input" min="0" max="100"></td>
     </tr>
 
     <tr>
         <td>Computer Science</td>
-        <td class="mark">95</td>
+        <td><input type="number" class="mark-input" min="0" max="100"></td>
     </tr>
 </table>
+
+<button id="calculate-btn">Calculate Result</button>
+
+<div class="result">
+    <h3 id="percentage">Percentage: --</h3>
+    <h3 id="grade">Grade: --</h3>
+</div>
+
+<script src="script.js"></script>
 
 <div class="result">
     <h3 id="percentage">Percentage: --</h3>

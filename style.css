@@ -134,3 +134,23 @@ tr:hover{
         font-size: 18px;
     }
 }
+
+.mark-input{
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+}
+
+#calculate-btn{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#calculate-btn:hover{
+    background: #0056b3;
+}
