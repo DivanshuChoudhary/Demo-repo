@@ -60,5 +60,33 @@ if (percentage >= 33){
     status = "Fail";
 }
 
-document.getElementById("status").textContent =
-    `Status: ${status}`;
+document.getElementById("grade").textContent =
+    `Grade: ${grade}`;
+
+    const statusElement = document.getElementById("status");
+
+statusElement.textContent = `Status: ${status}`;
+
+if (status === "PASS") {
+    statusElement.style.color = "green";
+} else {
+    statusElement.style.color = "red";
+}
+
+const card = document.querySelector(".card");
+
+if (grade === "A+") {
+    card.style.borderColor = "gold";
+}
+else if (grade === "A") {
+    card.style.borderColor = "green";
+}
+else if (grade === "B") {
+    card.style.borderColor = "blue";
+}
+else if (grade === "C") {
+    card.style.borderColor = "orange";
+}
+else {
+    card.style.borderColor = "red";
+}
